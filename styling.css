@@ -1,0 +1,171 @@
+/* ========================================================================= */
+/* RESET */
+/* ========================================================================= */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    background-color: #1e1e1e;
+}
+
+
+/* ========================================================================= */
+/* BASIC ELEMENTS */
+/* ========================================================================= */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+pre {
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+}
+
+p {
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+}
+
+span {
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+}
+
+ul, ol, li {
+    font-family: 'Noto Serif', serif;
+    color: #fff;
+}
+
+
+/* ========================================================================= */
+/* TOP HEADER CONTENT */
+/* ========================================================================= */
+body > header {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 50px;
+    display: none;
+}
+
+body > header > * {
+    margin: 0;
+}
+
+
+
+/* ========================================================================= */
+/* MAIN ELEMENT */
+/* ========================================================================= */
+main {
+    /* display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-flow: wrap;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    padding: 12px;
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ========================================================================= */
+/* MAIN CHILD CONTENT */
+/* ========================================================================= */
+main > section {
+    border: 1px solid #2c2c2c;
+    border-radius: 3px;
+    box-shadow: 0 0 1px 0px #000;
+}
+
+main > section > * {
+    padding: 12px;
+}
+
+main > section > h2 {
+    margin: 0;
+    color: #7c7c7c;
+}
+
+main > section > h2:first-child {
+    border-bottom: 1px solid #2c2c2c;
+    font-family: monospace;
+    font-weight: 200;
+    padding: 4px 8px;
+}
+
+main > section > h2:first-child > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main > section > pre {
+    margin: 0;
+    /* white-space: break-spaces; */
+    white-space: pre;
+}
+
+main > section > article {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main > section > article[lined] {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 4px;
+    padding: 12px;
+}
+
+main > section > article[lined] > a[num] {
+    text-align: right;
+    user-select: none;
+    color: #7c7c7c;
+    text-decoration: none;
+    font-family: monospace;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 4px;
+}
+
+main > section > article[lined] > span[txt] {
+    color: #e490ff;
+}
+
+main > section > article > p {
+    margin: 0;
+}
+
+main > section > ol {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+
