@@ -49,8 +49,7 @@ I don't know who gave birth to it.
 It is older than the concept of God.`],
 
 ["Chapter 5",
-`Heaven and Earth are impartial;
-they treat all of creation as straw dogs. The Master doesn't take sides; she treats everyone like a straw dog.
+`Heaven and Earth are impartial; they treat all of creation as straw dogs. The Master doesn't take sides; she treats everyone like a straw dog.
 The space between Heaven and Earth is like a bellows; it is empty, yet has not lost its power.
 The more it is used, the more it produces; the more you talk of it, the less you comprehend.
 It is better not to speak of things you do not understand.`],
