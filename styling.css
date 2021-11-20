@@ -62,6 +62,19 @@ body > header > * {
     margin: 0;
 }
 
+body > form {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    padding-bottom: 0;
+}
+
+body > form > button {
+    border: 1px solid #2c2c2c;
+    background-color: #1e1e1e;
+    color: #a9a9a9;
+}
+
 
 
 /* ========================================================================= */

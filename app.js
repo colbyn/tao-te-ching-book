@@ -816,7 +816,7 @@ function toUrlSafeString(value) {
 }
 
 
-function main() {
+function onLoad() {
     const root = document.querySelector('main');
     console.assert(root);
 
@@ -867,4 +867,14 @@ function main() {
     }
 }
 
-window.onload = main;
+window.onload = onLoad;
+
+
+function convertToSingleColumn(event) {
+    let main = document.body.querySelector('main');
+    main.setAttribute('style', 'grid-template-columns: 1fr;');
+    let form = document.body.querySelector('body > form');
+    form.remove();
+    return false;
+}
+
