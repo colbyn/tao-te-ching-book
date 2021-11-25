@@ -50,16 +50,23 @@ ul, ol, li {
 /* TOP HEADER CONTENT */
 /* ========================================================================= */
 body > header {
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 0 50px;
-    display: none;
+    /* padding: 0 50px; */
+    width: 90%;
+    margin: 0 auto;
 }
 
 body > header > * {
     margin: 0;
+}
+
+body > header > h1, body > header > h2 {
+    color: #c9c9c9;
+    font-weight: 100;
+    font-family: 'Playfair Display';
 }
 
 body > form {
