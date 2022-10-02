@@ -838,24 +838,23 @@ function onLoad() {
         section.appendChild(heading);
 
         const article = document.createElement('article');
-        article.setAttribute('lined', '');
+        // article.setAttribute('lined', '');
         let lineCounter = 0;
 
         for (line_txt of body_txt.match(/[^\r\n]+/g)) {
             lineCounter += 1;
 
-            let lineId = `line-${sectionCounter}-${lineCounter}`;
+            // let lineId = `line-${sectionCounter}-${lineCounter}`;
+            // let num = document.createElement('a');
+            // num.setAttribute('num', '');
+            // num.setAttribute('href', `#${lineId}`)
+            // num.innerText = `${lineCounter}`;
+            // article.appendChild(num);
 
-            let num = document.createElement('a');
-            num.setAttribute('num', '');
-            num.setAttribute('href', `#${lineId}`)
-            num.innerText = `${lineCounter}`;
-            article.appendChild(num);
-
-            let line = document.createElement('span');
+            let line = document.createElement('p');
             line.innerText = line_txt;
-            line.setAttribute('txt', '');
-            line.setAttribute('id', lineId);
+            // line.setAttribute('txt', '');
+            // line.setAttribute('id', lineId);
             article.appendChild(line);
             // const fragment = document.createElement('p');
             // fragment.setAttribute('line', '');
