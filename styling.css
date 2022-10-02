@@ -170,6 +170,22 @@ main > article > div[content] > p::first-letter {
     font-size: 2em;
 }
 
+body > footer {
+    padding: 30px;
+}
+body > footer > blockquote {
+    color: #000000;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem;
+    hyphens: auto;
+    line-height: 1.5em;
+    text-align: center;
+    hyphens: auto;
+}
+
+body > footer > blockquote > span[author] {
+    font-family: 'Sail', cursive;
+}
 
 @media (max-width: 700px) {
     main > article > div[content] > p {
@@ -184,6 +200,9 @@ main > article > div[content] > p::first-letter {
     }
     main > article > div[content] > p {
         font-size: 1.2rem;
+    }
+    body > footer {
+        padding: 10px;
     }
 }
 
