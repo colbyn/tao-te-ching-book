@@ -71,6 +71,13 @@ body > header > h1 {
     font-weight: 400;
 }
 
+body > header > p[author] {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
 body > header > p {
     font-family: 'Sail', cursive;
     max-width: 500px;
