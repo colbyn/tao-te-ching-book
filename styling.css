@@ -35,11 +35,6 @@ p {
     color: #000000;
 }
 
-span {
-    font-family: 'Noto Serif', serif;
-    color: #000000;
-}
-
 ul, ol, li {
     font-family: 'Noto Serif', serif;
     color: #000000;
@@ -82,6 +77,11 @@ body > header > p {
     font-family: 'Sail', cursive;
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
+}
+
+body > header > p > span[translator] {
+    font-size: 1.3em;
 }
 
 
